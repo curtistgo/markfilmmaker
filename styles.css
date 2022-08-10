@@ -1,9 +1,10 @@
 /* index page */
 
-/* main {
-  display: flex;
-  justify-content: center;
-} */
+#logo {
+  width: 10%;
+  height: auto;
+}
+
 .container-fluid {
   padding: 0%;
 }
@@ -18,23 +19,14 @@
   overflow: auto;
 }
 
-/* .navbar {
-  display: flex;
-  justify-content: center;
-} */
-
-/* #logo {
-  display: flex;
-} */
-
 .navbar-brand {
   display: flex;
 }
 
-.mark-title {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
+.main-title {
+  width: 100%;
+  height: auto;
+  flex-flow: wrap;
 }
 
 .mark-films {
@@ -44,6 +36,10 @@
   align-items: flex-start;
   /* max-width: 50vw; */
   flex-direction: row;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* films page */
@@ -58,4 +54,31 @@
 .image-movie {
   width: 200px;
   height: auto;
+}
+
+/* About page */
+
+.about-contents {
+  display: flex;
+  flex-flow: wrap;
+  width: 80vw;
+}
+
+.about-item {
+}
+
+.image-mark {
+  width: 70%;
+  height: auto;
+  box-shadow: 2px 2px 15px black;
+}
+
+.para-about {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+/* Contact page */
+.input_box {
+  margin-bottom: 15px;
 }
