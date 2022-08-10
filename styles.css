@@ -1,0 +1,65 @@
+/* index page */
+
+/* main {
+  display: flex;
+  justify-content: center;
+} */
+.container-fluid {
+  padding: 0%;
+}
+.main-section {
+  background-image: url(./stills/healing2.png);
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+/* .navbar {
+  display: flex;
+  justify-content: center;
+} */
+
+/* #logo {
+  display: flex;
+} */
+
+.navbar-brand {
+  display: flex;
+}
+
+.mark-title {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.mark-films {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  align-items: flex-start;
+  /* max-width: 50vw; */
+  flex-direction: row;
+}
+
+/* films page */
+
+.movies {
+  display: flex;
+  flex-flow: wrap;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.movie-titles {
+  /* background-color: lightblue; */
+}
+
+.image-movie {
+  width: 200px;
+  height: auto;
+}
