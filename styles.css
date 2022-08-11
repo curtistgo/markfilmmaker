@@ -64,8 +64,8 @@ p {
   width: 80vw;
 }
 
-.about-item {
-}
+/* .about-item {
+} */
 
 .image-mark {
   width: 70%;
@@ -81,4 +81,21 @@ p {
 /* Contact page */
 .input_box {
   margin-bottom: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-flow: wrap;
+  width: 100vw;
+  height: auto;
+}
+
+.form-image {
+  width: 45%;
+  height: auto;
+}
+
+.form-item {
+  width: 45%;
+  height: auto;
 }
