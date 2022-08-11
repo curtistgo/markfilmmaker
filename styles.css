@@ -86,8 +86,7 @@ p {
 .form-container {
   display: flex;
   flex-flow: wrap;
-  width: 80vw;
-  height: auto;
+  width: 80%;
 }
 
 .form-image {
@@ -96,6 +95,12 @@ p {
 }
 
 .form-item {
-  width: 45%;
+  width: auto;
   height: auto;
 }
+
+/* @media screen and (max-width: 135px) {
+  .text_input {
+    width: 10%;
+  }
+} */
