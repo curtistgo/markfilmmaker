@@ -99,8 +99,6 @@ p {
   height: auto;
 }
 
-/* @media screen and (max-width: 135px) {
-  .text_input {
-    width: 10%;
-  }
-} */
+.sub_set {
+  margin-bottom: 20px;
+}
